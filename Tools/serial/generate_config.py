@@ -87,12 +87,12 @@ serial_ports = {
     "TEL1": { # telemetry link
         "label": "TELEM 1",
         "index": 101,
-        "default_baudrate": 57600,
+        "default_baudrate": 921600,
         },
     "TEL2": { # companion port
         "label": "TELEM 2",
         "index": 102,
-        "default_baudrate": 921600,
+        "default_baudrate": 9600,
         },
     "TEL3": {
         "label": "TELEM 3",
@@ -109,7 +109,7 @@ serial_ports = {
     "GPS1": {
         "label": "GPS 1",
         "index": 201,
-        "default_baudrate": 0,
+        "default_baudrate": 9600,
         },
     "GPS2": {
         "label": "GPS 2",

@@ -15,6 +15,9 @@ set +e
 #
 #------------------------------------------------------------------------------
 
+#sleep 25 second to aviod HeZhong Onboard Computer UART influence
+sleep 25
+
 #
 # Set default paramter values.
 # Do not add intra word spaces
