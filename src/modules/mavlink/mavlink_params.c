@@ -151,7 +151,7 @@ PARAM_DEFINE_INT32(MAV_HB_FORW_EN, 1);
  * @boolean
  * @group MAVLink
  */
-PARAM_DEFINE_INT32(MAV_ODOM_LP, 0);
+PARAM_DEFINE_INT32(MAV_ODOM_LP, 1);
 
 /**
  * Timeout in seconds for the RADIO_STATUS reports coming in
